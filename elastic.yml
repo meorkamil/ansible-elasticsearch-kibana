@@ -6,5 +6,5 @@
       port_elastic: 9200 # default
       port_elastic_firewall: 9200/tcp # default
       hostname: "{{ ansible_hostname }}" # default
-      host_network: "{{ ansible_default_ipv4.address }}" # default
+      host_network: "192.168.0.181" # default
       memory_java: -Xmx500m -Xms500m # default

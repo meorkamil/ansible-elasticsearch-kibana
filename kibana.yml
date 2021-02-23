@@ -3,8 +3,8 @@
   hosts: elastic
   roles:
     - role: kibana
-      elastic_host: "{{ ansible_default_ipv4.address }}:9200" # default
-      kibana_host: "{{ ansible_default_ipv4.address }}" # default
+      elastic_host: "192.168.0.181:9200" # default
+      kibana_host: "192.168.0.181" # default
       kibana_port: 5601 # default
       kibana_port_firewall: 5601/tcp # default
 
